@@ -1,0 +1,15 @@
+@media only screen and (max-width: 767px) {
+    /* TODO: BEM NAMING */
+    .pinsubmit {
+        display:none;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .pinsubmit.shown {
+        display: block;
+    }
+}

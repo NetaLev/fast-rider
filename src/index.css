@@ -1,0 +1,33 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*semantic-ui-css-overrides*/
+
+.ui.card, .ui.cards>.card {
+  height: 100%;
+}
+
+.ui.header,
+.ui.card>.content>.header,
+.ui.cards>.card>.content>.header {
+  color: white;
+}
+.ui.icon.header.aligned,
+.ui.card .meta, .ui.cards>.card .meta {
+  color: #656565;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+/*padding inside card*/
+.ui.card>.content, .ui.cards>.card>.content {
+  padding: 0.5em 0.5em;
+}
+
+
+
+

@@ -1,0 +1,68 @@
+/*--------------
+     Fixed
+---------------*/
+
+.ui.pinsubmit.fixed { /*!!!*/
+    position: fixed;
+    z-index: 101;
+    margin: 0em;
+    width: 100%;
+  }
+  
+  .ui.fixed.pinsubmit,
+  .ui[class*="top fixed"].pinsubmit { /*!!!*/
+    top: 0px;
+    left: 0px;
+    right: auto;
+    bottom: auto;
+  }
+
+  .ui[class*="bottom fixed"].pinsubmit { /*!!!*/
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    bottom: 0px;
+    left: 0px;
+    top: auto;
+    right: auto;
+  }
+
+  /* .ui.menu.fixed,
+  .ui.menu.fixed .item:first-child,
+  .ui.menu.fixed .item:last-child {
+    border-radius: 0px !important;
+  }
+
+  .ui[class*="top fixed"].menu {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+  .ui[class*="right fixed"].menu {
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    top: 0px;
+    right: 0px;
+    left: auto;
+    bottom: auto;
+    width: auto;
+    height: 100%;
+  }
+  
+  .ui[class*="left fixed"].menu {
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    top: 0px;
+    left: 0px;
+    right: auto;
+    bottom: auto;
+    width: auto;
+    height: 100%;
+  }
+  
+  .ui.fixed.menu + .ui.grid {
+    padding-top: 2.75rem;
+  } */
+  

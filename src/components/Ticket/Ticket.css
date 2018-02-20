@@ -1,0 +1,12 @@
+.ticket-card.ui.card>.content {
+    background-color: #373737;
+}
+
+.ticket-card.ui.card {
+    height:14em;
+    width:100%;
+}
+
+.ticketCard__ride-name {
+    color: white;
+}

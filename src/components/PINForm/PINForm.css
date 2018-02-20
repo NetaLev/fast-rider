@@ -1,0 +1,51 @@
+/*TODO: fix input fields alignment*/
+
+.ui.form .fields .wide.field { 
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .ui.form input:not([type]), .ui.form input[type=date], .ui.form input[type=datetime-local], .ui.form input[type=email], .ui.form input[type=file], .ui.form input[type=number], .ui.form input[type=password], .ui.form input[type=search], .ui.form input[type=tel], .ui.form input[type=text], .ui.form input[type=time], .ui.form input[type=url],
+.ui.form input[type=text]:focus {
+    border-radius: 0px;
+    border: none;
+    height: 100%;
+  }
+
+  .ui.button,
+  .ui.button:focus,
+  .ui.button:active {
+    border-radius: 0px;
+    background: #4c4c4c none;
+    color: white;
+  }
+
+  .ui.button:hover {
+    background: #585858 none;
+    color: white;
+  }
+
+    .ui.warning.message {
+        background-color: #373737;
+        box-shadow: none;
+    }
+
+    .ui.warning.message .header{
+        color: white;
+    }
+
+@media only screen and (max-width: 767px) {
+    .pinsubmit {
+        display:none;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1001;
+    }
+
+    .pinsubmit.shown {
+        display: block;
+    }
+}

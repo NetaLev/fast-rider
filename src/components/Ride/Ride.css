@@ -1,0 +1,31 @@
+.ui.card>.content>.header:not(.ui), .ui.cards>.card>.content>.header:not(.ui) {
+    font-size: 1.6em;
+}
+
+.ui.card.ride-card {
+    height: 12em;
+    cursor: pointer;
+}
+
+.ui.card>.content {
+    padding: 0.5em 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ui.card>.content>.header:not(.ui) {
+    margin-top:0em;
+}
+
+.ride-card__icon.ui.mini.image, .ui.mini.images .image, .ui.mini.images img, .ui.mini.images svg {
+    width: 2em;
+    margin-bottom:0.1em;
+  }
+
+  /*TODO: this is an ugly fix. find the root to the problem and redo css*/
+  .ui.card.ride-card .split-pane.ui.grid>.column:not(.row) {
+    padding-bottom: 0rem;
+    padding-right: 0rem;
+      }
+

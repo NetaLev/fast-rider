@@ -1,0 +1,7 @@
+.ui.header>.image:not(.icon), .ui.header>img {
+    width: 3.15em;
+    padding: 0.23em;
+    background-color: #373737;
+    margin-bottom: 1em;
+}
+

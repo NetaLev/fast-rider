@@ -1,0 +1,16 @@
+
+.ui.container.main-container {
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+}
+
+.ui.header.main-header {
+    padding-top: 2em;
+    padding-bottom: 1em;
+  }
+/*INFO: use both media widths to override 2 different media widths in semantic-ui*/
+  @media only screen and (min-width: 992px) and (min-width: 1200px) { 
+    .ui.container.main-container {
+        width: 820px;
+    }
+  }
